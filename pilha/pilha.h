@@ -13,10 +13,10 @@ class Pilha
     Pilha();
     ~Pilha();
     bool EstaCheia();
-    bool EstaFazia();
+    bool EstaVazia();
     void Inserir(TipoItem item);
     TipoItem Remover();
-    void imprimir();
+    void Imprimir();
     int QualTamanho();
 };
 
